@@ -4340,8 +4340,8 @@ function viewportUpdate() {
   var initHeight = viewportProperties.height;
   var p = ionic.Platform;
   var version = p.version();
-  var DEVICE_WIDTH = 'device-width';
-  var DEVICE_HEIGHT = 'device-height';
+  var DEVICE_WIDTH = '1280';
+  var DEVICE_HEIGHT = '720';
   var orientation = ionic.viewport.orientation();
 
   // Most times we're removing the height and adding the width
